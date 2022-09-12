@@ -2,10 +2,11 @@
 
 int maxNumber = int.Parse(Console.ReadLine());
 
-Random random = new Random();                                         //Создание рандома
+//Создание рандома
+Random random = new Random();                                         
 
-                                                      // Создание переменной - ввода пользователя
-int hiddenNumber = random.Next(1, maxNumber + 1);                     //Создание рандомного числа в заданном пользователем диапазоне
+// Создание переменной - ввода пользователя
+int hiddenNumber = random.Next(1, maxNumber + 1);                     
 
 Console.WriteLine("Число загадано, теперь попробуйте угадать");
 
@@ -16,7 +17,7 @@ while (true)
 
 	// Сравнение числа с загаданным, и вывод результата на экран
 	if (int.TryParse(userInput, out userNumber))
-    {
+	{
 		if (userNumber == hiddenNumber)
 		{
 			Console.Clear();
@@ -27,7 +28,7 @@ while (true)
 
 		}
 		else if (userNumber > hiddenNumber)
-		{                                                                                                          
+		{
 			Console.ForegroundColor = ConsoleColor.Red;
 			Console.WriteLine("Введеное число больше загаданного. Попробуйте еще раз.");
 			Console.ForegroundColor = ConsoleColor.White;
@@ -40,12 +41,13 @@ while (true)
 		}
 	}
 	else
-    {
+	{
 		Console.WriteLine("Приложение закрывается");
-    }
-	
+		break;
+	}
 
-	
-	
+
+
+
 
 }

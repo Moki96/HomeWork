@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5", "ConsoleApp5\ConsoleApp5.csproj", "{0CB99EE9-7099-4850-8A48-CC9D636CED4C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Домашка", "Домашка", "{135ADECA-FF05-4256-87B1-C6171C33D52C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp5.1", "ConsoleApp5.1\ConsoleApp5.1.csproj", "{515546B8-C0D0-446E-9657-A73909942D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Определение четного числа", "Определение четного числа\Определение четного числа.csproj", "{08C55F8D-747C-438C-940B-34A59C8B5494}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Новая папка1", "Новая папка1", "{8DA8891F-F43F-405E-AE69-AD4E747D53A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Программа подсчёта суммы карт в игре «21»", "Программа подсчёта суммы карт в игре «21»\Программа подсчёта суммы карт в игре «21».csproj", "{9B83D2B8-064A-4CEA-8E09-BAC030864AFE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{99423E48-14CC-4FAF-A9A3-CC2A2265867E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Задание 3. Проверка простого числа", "Задание 3. Проверка простого числа\Задание 3. Проверка простого числа.csproj", "{E4801026-0A08-4ED7-8760-53E2CF1591FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A6F84673-CF1A-4CE6-9B84-FCE37D044368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Задание 4. Наименьший элемент в последовательности", "Задание 4. Наименьший элемент в последовательности\Задание 4. Наименьший элемент в последовательности.csproj", "{52B66F53-CFD2-46C8-882B-04D8DD0CDA8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Задание 5. Игра «Угадай число»", "Задание 5. Игра «Угадай число»\Задание 5. Игра «Угадай число».csproj", "{6560F9CF-62CB-468F-A1C1-F3933C5541E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,31 +21,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0CB99EE9-7099-4850-8A48-CC9D636CED4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CB99EE9-7099-4850-8A48-CC9D636CED4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CB99EE9-7099-4850-8A48-CC9D636CED4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CB99EE9-7099-4850-8A48-CC9D636CED4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{515546B8-C0D0-446E-9657-A73909942D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{515546B8-C0D0-446E-9657-A73909942D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{515546B8-C0D0-446E-9657-A73909942D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{515546B8-C0D0-446E-9657-A73909942D0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99423E48-14CC-4FAF-A9A3-CC2A2265867E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99423E48-14CC-4FAF-A9A3-CC2A2265867E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99423E48-14CC-4FAF-A9A3-CC2A2265867E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99423E48-14CC-4FAF-A9A3-CC2A2265867E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6F84673-CF1A-4CE6-9B84-FCE37D044368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6F84673-CF1A-4CE6-9B84-FCE37D044368}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6F84673-CF1A-4CE6-9B84-FCE37D044368}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6F84673-CF1A-4CE6-9B84-FCE37D044368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C55F8D-747C-438C-940B-34A59C8B5494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C55F8D-747C-438C-940B-34A59C8B5494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C55F8D-747C-438C-940B-34A59C8B5494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C55F8D-747C-438C-940B-34A59C8B5494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B83D2B8-064A-4CEA-8E09-BAC030864AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B83D2B8-064A-4CEA-8E09-BAC030864AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B83D2B8-064A-4CEA-8E09-BAC030864AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B83D2B8-064A-4CEA-8E09-BAC030864AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4801026-0A08-4ED7-8760-53E2CF1591FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4801026-0A08-4ED7-8760-53E2CF1591FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4801026-0A08-4ED7-8760-53E2CF1591FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4801026-0A08-4ED7-8760-53E2CF1591FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B66F53-CFD2-46C8-882B-04D8DD0CDA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B66F53-CFD2-46C8-882B-04D8DD0CDA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B66F53-CFD2-46C8-882B-04D8DD0CDA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B66F53-CFD2-46C8-882B-04D8DD0CDA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6560F9CF-62CB-468F-A1C1-F3933C5541E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6560F9CF-62CB-468F-A1C1-F3933C5541E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6560F9CF-62CB-468F-A1C1-F3933C5541E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6560F9CF-62CB-468F-A1C1-F3933C5541E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0CB99EE9-7099-4850-8A48-CC9D636CED4C} = {8DA8891F-F43F-405E-AE69-AD4E747D53A2}
-		{515546B8-C0D0-446E-9657-A73909942D0F} = {8DA8891F-F43F-405E-AE69-AD4E747D53A2}
-		{99423E48-14CC-4FAF-A9A3-CC2A2265867E} = {8DA8891F-F43F-405E-AE69-AD4E747D53A2}
-		{A6F84673-CF1A-4CE6-9B84-FCE37D044368} = {8DA8891F-F43F-405E-AE69-AD4E747D53A2}
+		{08C55F8D-747C-438C-940B-34A59C8B5494} = {135ADECA-FF05-4256-87B1-C6171C33D52C}
+		{9B83D2B8-064A-4CEA-8E09-BAC030864AFE} = {135ADECA-FF05-4256-87B1-C6171C33D52C}
+		{E4801026-0A08-4ED7-8760-53E2CF1591FC} = {135ADECA-FF05-4256-87B1-C6171C33D52C}
+		{52B66F53-CFD2-46C8-882B-04D8DD0CDA8F} = {135ADECA-FF05-4256-87B1-C6171C33D52C}
+		{6560F9CF-62CB-468F-A1C1-F3933C5541E1} = {135ADECA-FF05-4256-87B1-C6171C33D52C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F33DFA6-0AE5-41B9-ABC5-1F9648C9D819}

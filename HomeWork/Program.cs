@@ -166,6 +166,11 @@ namespace HomeWork.ConsoleApp // Объявление пространства �
 					break;
 					
 				}
+				else if ( userNumber == null)
+                {
+					Console.WriteLine("Игра закрывается");
+					Environment.Exit(0);
+				}
 				else if (userNumber > hiddenNumber )
                 {                                                                                                          // Сравнение числа с загаданным, и вывод результата на экран
 					Console.ForegroundColor = ConsoleColor.Red;
