@@ -1,24 +1,23 @@
-﻿Console.WriteLine("Введите число для определения простоты");
+bool prost = true;
 
-bool meaning = true;
-int a = 0;
-int i = 2;
-int number = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число");
 
-while (meaning)
+int n = int.Parse(Console.ReadLine());
+
+
+for (int i = 2; i <= n / 2; i++)
 {
-	a = number % i;
-	i++;
-	
-
-	if (a != 0)
-	{
-		Console.WriteLine("Простое ");
-		break;
-	}
-	else
-	{
-		Console.WriteLine("Не простое");
-		break;
-	}
+    if (n % i == 0)
+    {
+        prost = false;
+        break;
+    }
+}
+if (prost)
+{
+    Console.WriteLine("Число простое");
+}
+else
+{
+    Console.WriteLine("Число не простое");
 }
