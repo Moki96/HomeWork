@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Игра угадайка \nВведите диапазон загадываемого числа");
+Console.WriteLine("Игра угадайка \nВведите диапазон загадываемого числа");
 
 int maxNumber = int.Parse(Console.ReadLine());
 
@@ -42,8 +42,17 @@ while (true)
 	}
 	else
 	{
-		Console.WriteLine("Приложение закрывается");
-		break;
+		if (userInput == "")
+
+		{
+
+			Console.WriteLine("Приложение закрывается");
+			break;
+
+		}
+
+		Console.WriteLine("Число введенно не корректно");
+		
 	}
 
 
